@@ -1,13 +1,10 @@
 @import "./settings/__settings";
-
 .title {
-
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
 
   a {
-
     color: $color-primary;
     text-decoration: none;
 
@@ -16,11 +13,8 @@
     &:active {
       text-decoration: underline;
     }
-
   }
-
 }
-
 .title,
 .description {
   text-align: center;

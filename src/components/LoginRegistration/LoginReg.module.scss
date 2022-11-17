@@ -1,0 +1,154 @@
+@import "../../styles/settings/__settings";
+
+.login_reg_main {
+  padding: 50px 0;
+  .login_reg_content {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-size: 35px;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+    text-align: center;
+  }
+  .login_reg_box {
+    max-width: 500px;
+    box-shadow: 0px 0px 12px #00000029;
+    padding: 40px 25px;
+  }
+  .login_box_inner {
+    h3 {
+      border-bottom: 1px solid $black-color;
+      padding-bottom: 20px;
+      font-weight: 800;
+      font-size: 22px;
+      margin: 0;
+    }
+    .login_box_inner_content {
+      padding-top: 10px;
+      form {
+        padding-top: 20px;
+      }
+      p {
+        color: $black-color;
+        font-size: 15px;
+        max-width: 412px;
+      }
+      .form_group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 22px;
+
+        label {
+          font-size: 15px;
+          span {
+            color: $theme-color;
+          }
+        }
+
+        input {
+          border: 1px solid rgba(26, 26, 26, 0.2);
+          height: 50px;
+          min-width: 100%;
+          margin-top: 10px;
+          padding: 0.375rem 0.75rem;
+
+          &:focus-visible {
+            outline: 0 !important;
+          }
+          &:focus {
+            border: 1px solid rgb(26 26 26 / 67%);
+          }
+        }
+        .pass_input {
+          position: relative;
+          svg {
+            position: absolute;
+            right: 14px;
+            top: 61%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            background-color: transparent;
+            border: none;
+            color: #1a1a1a;
+            padding: 0;
+            cursor: pointer;
+          }
+        }
+      }
+      .login_info_area {
+        p {
+          font-size: 12px !important;
+          a {
+            text-decoration: underline;
+            cursor: pointer;
+
+            &:hover {
+              color: $theme-color;
+            }
+          }
+        }
+        span {
+          font-size: 15px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+      }
+      button {
+        border: 0;
+        background-color: $theme-color;
+        color: #ffff;
+        padding: 15px 25px;
+        font-size: 15px;
+        margin-top: 55px;
+        cursor: pointer;
+      }
+    }
+    .reg_box_inner_content {
+      padding-top: 10px;
+      form {
+        padding-top: 20px;
+      }
+      .reg_info_para {
+        line-height: 19px;
+        color: $black-color;
+        font-size: 14px;
+        max-width: 412px;
+        span {
+          font-weight: bold;
+        }
+      }
+      .reg_detail_section {
+        padding-top: 10px;
+        min-height: 293px;
+        p {
+          font-size: 15px;
+          font-weight: bold;
+        }
+        span {
+          display: block;
+          line-height: 35px;
+          font-size: 15px;
+          font-weight: 500;
+
+          img {
+            width: 16px;
+            margin-right: 8px;
+          }
+        }
+      }
+
+      button {
+        border: 0;
+        background-color: $theme-color;
+        color: #ffff;
+        padding: 15px 25px;
+        font-size: 15px;
+        margin-top: 55px;
+        cursor: pointer;
+      }
+    }
+  }
+}

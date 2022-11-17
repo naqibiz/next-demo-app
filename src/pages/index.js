@@ -1,17 +1,18 @@
-import Head from 'next/head'
+import Head from "next/head";
 
-import Container from '../components/Container';
-import Main from '../components/Main';
-import Footer from '../components/Footer';
-import Grid from '../components/Grid';
-import Card from '../components/Card';
+import Container from "../components/Container";
+import Main from "../components/Main";
+import Footer from "../components/Footer";
+import Grid from "../components/Grid";
+import Card from "../components/Card";
 
-import styles from '../styles/Home.module.scss'
+import styles from "../styles/Home.module.scss";
+import LoginRegComponent from "../components/LoginRegistration/LoginReg";
 
 export default function Home() {
   return (
-    <Container>
-      <Head>
+    <>
+      {/* <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
 
@@ -19,9 +20,9 @@ export default function Home() {
           name="description"
           content="Use Sass to start your Next.js app with CSS superpowers!"
         ></meta>
-      </Head>
+      </Head> */}
 
-      <Main>
+      {/* <Main>
         <h1 className={styles.title}>
           <a href="https://nextjs.org">Next.js</a> Sass Starter
         </h1>
@@ -53,17 +54,18 @@ export default function Home() {
           </Card>
 
           <Card>
-            <a
-              href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            >
+            <a href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app">
               <h2>Deploy &rarr;</h2>
-              <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+              <p>
+                Instantly deploy your Next.js site to a public URL with Vercel.
+              </p>
             </a>
           </Card>
         </Grid>
-      </Main>
+      </Main> */}
 
-      <Footer />
-    </Container>
-  )
+      {/* <Footer /> */}
+      <LoginRegComponent />
+    </>
+  );
 }
