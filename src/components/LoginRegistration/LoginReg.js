@@ -82,7 +82,7 @@ const LoginRegComponent = () => {
                   </span>
                 </div>
 
-                <button>Anmelden</button>
+                <button>Zur Registrierung</button>
               </div>
             </div>
           </div>
